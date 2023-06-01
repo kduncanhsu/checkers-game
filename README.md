@@ -21,7 +21,7 @@ _Game:_ Runs the main game
 
 ## Execution Instructions
 `cd main
-Java Game.java'
+Java Game.java`
 
 
 
