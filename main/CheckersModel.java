@@ -1,5 +1,3 @@
-package org.cis120.checkers;
-
 import java.io.*;
 import java.util.LinkedList;
 
