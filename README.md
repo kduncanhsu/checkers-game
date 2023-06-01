@@ -20,7 +20,7 @@ _Game:_ Runs the main game
 4. JUnit Testing
 
 ## Execution Instructions
-`cd main
+`cd main \n
 Java Game.java`
 
 
