@@ -1,2 +1,2 @@
-# checkers-game
-checkers-game
+# Checkers Game
+(placeholder)
