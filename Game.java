@@ -8,8 +8,8 @@ public class Game {
      * class and runs it.
      */
     public static void main(String[] args) {
-        Runnable game = new org.cis120.checkers.RunCheckers(); // Set the game you want to run
-                                                                     // here
+        Runnable game = new org.cis120.checkers.RunCheckers(); 
+        
         SwingUtilities.invokeLater(game);
     }
 }
