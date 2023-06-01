@@ -12,10 +12,7 @@ import java.awt.event.MouseEvent;
  * reflect the current state of the model.
  * 
  * This game adheres to a Model-View-Controller design framework. This
- * framework is very effective for turn-based games. We STRONGLY
- * recommend you review these lecture slides, starting at slide 8,
- * for more details on Model-View-Controller:
- * https://www.seas.upenn.edu/~cis120/current/files/slides/lec37.pdf
+ * framework is very effective for turn-based games.
  * 
  * In a Model-View-Controller framework, GameBoard stores the model as a field
  * and acts as both the controller (with a MouseListener) and the view (with
@@ -161,13 +158,6 @@ public class GameBoard extends JPanel {
 
     /**
      * Draws the game board.
-     * 
-     * There are many ways to draw a game board. This approach
-     * will not be sufficient for most games, because it is not
-     * modular. All of the logic for drawing the game board is
-     * in this method, and it does not take advantage of helper
-     * methods. Consider breaking up your paintComponent logic
-     * into multiple methods or classes, like Mushroom of Doom.
      */
     @Override
     public void paintComponent(Graphics g) {
