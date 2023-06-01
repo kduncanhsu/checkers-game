@@ -498,11 +498,6 @@ public class CheckersModel {
      * This main method illustrates how the model is completely independent of
      * the view and controller. We can play the game from start to finish
      * without ever creating a Java Swing object.
-     *
-     * This is modularity in action, and modularity is the bedrock of the
-     * Model-View-Controller design framework.
-     *
-     * Run this file to see the output of this method in your console.
      */
     public static void main(String[] args) {
         CheckersModel cm = new CheckersModel();
